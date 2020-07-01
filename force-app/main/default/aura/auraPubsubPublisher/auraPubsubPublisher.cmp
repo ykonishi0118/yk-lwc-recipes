@@ -8,7 +8,7 @@
  - If the child is an Aura component, use attribute passing or call an aura:method defined in the child component
  - If the child is a Lightning Web component, use attribute passing or call a public @api method defined in the child component
 -->
-<aura:component implements="flexipage:availableForAllPageTypes">
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
     <c:auraPubsub aura:id="pubsub" />
 
     <lightning:card title="AuraPubsubPublisher" iconName="custom:custom30">

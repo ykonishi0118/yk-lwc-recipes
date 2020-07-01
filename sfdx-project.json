@@ -6,13 +6,22 @@
             "package": "LWCRecipes",
             "versionName": "Spring '20",
             "versionNumber": "3.0.0.NEXT"
+        },
+        {
+            "path": "force-app",
+            "package": "YKH2GP01",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
         }
     ],
-    "namespace": "",
+    "namespace": "ykh2gp01ns",
     "sourceApiVersion": "48.0",
     "sfdcLoginUrl": "https://login.salesforce.com",
     "packageAliases": {
         "LWCRecipes": "0HoB0000000GmiJKAS",
-        "LWCRecipes@3.0.0-93": "04tB0000000OzdLIAS"
+        "LWCRecipes@3.0.0-93": "04tB0000000OzdLIAS",
+        "YKH2GP01": "0Ho0I000000GmcFSAS",
+        "YKH2GP01@0.1.0-1": "04t0I000000o0fVQAQ"
     }
 }
